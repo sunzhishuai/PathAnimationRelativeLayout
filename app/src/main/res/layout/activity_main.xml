@@ -7,23 +7,17 @@
     android:orientation="vertical"
     tools:context="com.newborntown.pathanimationrelativelayout.MainActivity">
 
-    <com.newborntown.pathanimationrelativelayout.PathAnimationRelativeLayout
-        android:id="@+id/pr_show"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:src="@mipmap/belle3"
-            app:use_path="true" />
-    </com.newborntown.pathanimationrelativelayout.PathAnimationRelativeLayout>
+    <Button
+        android:text="path动画"
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btn"
+        android:text="水波纹"
+        android:id="@+id/btn_2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="start" />
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
